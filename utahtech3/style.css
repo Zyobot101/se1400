@@ -76,7 +76,7 @@ footer {
 
 #homehero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/homehero.jpg");
+        url("file:///Users/ethanlee/Desktop/Summer%202025%20-%20Computing%20Fundamentals/se1400/utahtech3/homehero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -85,7 +85,7 @@ footer {
 
 #studenthero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/studenthero.jpg");
+        url("file:///Users/ethanlee/Desktop/Summer%202025%20-%20Computing%20Fundamentals/se1400/utahtech3/studenthero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
