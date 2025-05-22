@@ -16,7 +16,6 @@ header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: 'Georgia', sans-serif;
-    padding: 1em;
 }
 
 header h1 {
@@ -24,7 +23,7 @@ header h1 {
     background-repeat: no-repeat;
     background-image:
         url("utahtechlogo.svg");
-    padding-left: 1rem;
+    padding-left: 1em;
     background-origin: content-box;
     margin-bottom: 0;
 }
