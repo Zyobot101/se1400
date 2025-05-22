@@ -6,44 +6,48 @@ body {
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
 }
 
-nav a {
-    text-decoration: none;
+nav {
     background-color: #F3F3F3;
     font-weight: bold;
+    padding-left:2rem;
+    padding-right:0.5rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: 'Georgia', sans-serif;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 0.5rem;
-    padding-left: 2rem;
 }
 
-header h1 {
+h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-image:
         url("utahtechlogo.svg");
-    padding-left: 1em;
     background-origin: content-box;
-    margin-bottom: 0;
+    margin-bottom:0;
+    padding-left:1em;
+    line-height: 140%;
+    padding: .5rem;
 }
 
 main {
-    padding-left: 2rem;
-    padding-right: 2rem;
-
+    padding-left:2rem;
+    padding-right:2rem;
 }
 
-main h2 {
+h2 {
     color: #424242;
     font-family: 'Georgia', sans-serif;
 }
 
-main h3 {
+h3 {
     color: #003058;
 }
 
