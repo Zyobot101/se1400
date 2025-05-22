@@ -6,20 +6,20 @@ body {
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
 }
 
-nav {
+nav a {
     text-decoration: none;
     background-color: #F3F3F3;
     font-weight: bold;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 0.5rem;
-    padding-left: 2rem;
 }
 
 header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: 'Georgia', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 2rem;
 }
 
 header h1 {
