@@ -3,16 +3,16 @@ body {
     color: #666666;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 nav {
     background-color: #F3F3F3;
     font-weight: bold;
-    padding-left:2rem;
-    padding-right:0.5rem;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 nav a {
@@ -31,15 +31,14 @@ h1 {
     background-image:
         url("utahtechlogo.svg");
     background-origin: content-box;
-    margin-bottom:0;
-    padding-left:1em;
+    margin-bottom: 0;
+    padding-left: 1em;
     line-height: 140%;
-    padding: .5rem;
 }
 
 main {
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h2 {
