@@ -78,8 +78,6 @@ main {
 }
 
 main img {
-    background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/students.jpg"); /* Work on this one */
     padding-left:2rem;
     float: right;
 }
