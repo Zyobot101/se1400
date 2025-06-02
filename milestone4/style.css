@@ -30,7 +30,7 @@ nav h2 {
 
 nav ul {
     margin: 25px 25px 25px 25px;
-    display:inline;
+    display:block;
     list-style-type:none;
     font-family: 'Anonymous Pro', sans-serif;
     font-size: 24px;
