@@ -10,42 +10,38 @@ body {
 nav {
     background-color: rgba(9,1,40,1);
     top:0;
-    grid-row: 1;
+    grid-row: 1fr;
     grid-column: 2/8;
-    
+    display:flex;
+    flex-flow:row nowrap;
 }
 
 nav a {
     text-decoration:none;
     display:block;
+    color:rgba(254, 32, 213, 1);
 }
 
 nav h2 {
     font-size: 24px;
     font-family: 'Lexend Exa', sans-serif;
     color: rgba(254, 32, 213, 1);
-    margin: 25px 25px 0px 50px;
+    margin: 25px 25px 25px 50px;
     text-decoration:none;
 }
 
 nav ul {
-    margin: 25px 25px 25px 25px;
     display:block;
     list-style-type:none;
     font-family: 'Anonymous Pro', sans-serif;
-    font-size: 24px;
-    width:15%;
-    padding: 25px 25px 25px 25px;
-    flex-flow: row nowrap;
+    font-size:24px;
+    display:flex;
+    flex-flow:row nowrap;
 }
 
 nav ul li {
-    /* Convert to css.style format somehow:
-        <li><span style="color:#FF1717;"><a href="index.html">Home</a></span></li>
-        <li><span style="color:#FFC917;"><a href="about.html">About</a></span></li>
-        <li><span style="color:#FFFA76;"><a href="contact.html">Contact</a></span></li>
-        <li><span style="color:#6ED22F;"><a href="blog.html">Blog</a></span></li>
-        <li><span style="color:#746BF5;"><a href="projects.html">Project</a></span></li> */
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 main {
@@ -87,6 +83,41 @@ footer {
     grid-template-columns: minmax(0px,1fr) repeat(6, minmax(0,175px)) minmax(0px,1fr);
 }
 
+#homepage {
+    background:none;
+    background-color: none;
+    color:#FF1717;
+    text-decoration: none;
+}
+
+#aboutpage {
+    background:none;
+    background-color: none;
+    color:#FFC917;
+    text-decoration: none;
+}
+
+#contactpage {
+    background:none;
+    background-color: none;
+    color:#FFFA76;
+    text-decoration: none;
+}
+
+#blogpage {
+    background:none;
+    background-color: none;
+    color:#6ED22F;
+    text-decoration: none;
+}
+
+#projectspage {
+    background:none;
+    background-color: none;
+    color:#746BF5;
+    text-decoration: none;
+}
+
 #coding_journey {
     background-color: rgba(19,19,19,1);
     grid-row: 2/3;
@@ -120,11 +151,11 @@ footer {
 
 .figure {
     width:200px;
-    grid-column: 6;
+    grid-column: 4;
 }
 
 .project{
     float:left;
-    text-align:left;
-    grid-column: 2/4;
+    align:left;
+    grid-column: 2/5;
 }
