@@ -2,27 +2,27 @@
 
 @font-face {
     font-family: 'Lexend Exa';
-    src: url("https://fonts.google.com/specimen/Lexend+Exa");
+    src: url("/Users/ethanlee/Downloads/Lexend_Exa/LexendExa-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: 'Anonymous Pro';
-    src: url("https://fonts.google.com/specimen/Anonymous+Pro");
+    src: url("/Users/ethanlee/Downloads/anonymous-pro/AnonymousPro-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("https://fonts.google.com/specimen/Roboto");
+    src: url("/Users/ethanlee/Downloads/roboto\(1\)/Roboto-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Roboto Mono';
-    src: url("https://fonts.google.com/specimen/Roboto+Mono");
+    src: url("/Users/ethanlee/Downloads/roboto-mono/RobotoMono-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Anek Odio';
-    src: url("https://fontsource.org/fonts/anek-odia");
+    font-family: 'Anek Odia';
+    src: url("/Users/ethanlee/Downloads/anek-odia_5.2.5/ttf/anek-odia-latin-300-normal.ttf");
 }
 
 * {
@@ -52,8 +52,8 @@ nav a {
 nav h2 {
     font-size: 24px;
     font-family: 'Lexend Exa', sans-serif;
-    color: rgba(254, 32, 213, 1);
-    margin: 25px 25px 25px 50px;
+    font-weight:normal;
+    margin: 25px 10px 25px 50px;
     text-decoration:none;
 }
 
@@ -67,8 +67,9 @@ nav ul {
 }
 
 nav ul li {
-    padding-left: 35px;
-    padding-right: 35px;
+    /*padding-left: 35px;
+    padding-right: 35px;*/
+    margin: 5px 10px 0px 50px;
 }
 
 main {
@@ -77,6 +78,7 @@ main {
     grid-row: 4/5;
     grid-column: 2/8;
     background-color: rgba(159, 159, 159, 1);
+    color: rgba(237, 255, 165, 1);
     text-decoration: none;
     font-family: 'Anonymous Pro', sans-serif;
 }
@@ -89,7 +91,7 @@ main h3 {
     grid-column: 2/4;
     display:flex;
     float:left;
-    align:left;
+    padding-left: 50px;
 }
 
 main img {
@@ -156,8 +158,8 @@ footer {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 32px;
     color: rgba(255, 130, 130, 1);
-    padding: 20px 40px 0px 80px;
-    line-height: 100%;
+    padding: 40px 50px 60px 70px;
+    line-height: 150%;
 }
 
 #homecode {
@@ -178,32 +180,34 @@ footer {
     color: rgba(255,163,98,1);
     text-align: center;
     line-height: 100%;
+    padding-top: 30px;
 }
 
 #ellipsis {
     background:none;
     background-color:none;
     color:rgba(255, 255, 255, 1);
+    font-size: 40px;
     font-weight:bold;
     text-decoration:none;
     font-family: 'Anek Odia', sans-serif;
 }
 
-.figure {
-    width:200px;
-    grid-column: 6;
-    padding-left: 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    align:right;
-    float:right;
+.project{
     display:flex;
+    float:left;
+    text-align: left;
+    grid-area:4/2/4/3;
+    color: rgba(237, 255, 165, 1);
+    padding-left:50px;
 }
 
-.project{
-    float:left;
-    align:left;
-    grid-column: 2/5;
-    color: rgba(237, 255, 165, 1);
-    display:flex;
+.photo {
+    display:grid;
+    float:right;
+    width:300px;
+    grid-area:2/5/4/7;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    float:right;
 }
