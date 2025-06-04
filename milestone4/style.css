@@ -185,6 +185,12 @@ footer {
     font-family: 'Anek Odia', sans-serif;
 }
 
+#email {
+    background:none;
+    color:rgba(254, 32, 213, 1);
+    line-height: 90%;
+}
+
 .project{
     display:flex;
     float:left;
