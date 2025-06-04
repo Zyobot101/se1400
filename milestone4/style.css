@@ -37,7 +37,7 @@ body {
 nav {
     background-color: rgba(9,1,40,1);
     top:0;
-    grid-row: 1fr;
+    grid-row: 1;
     grid-column: 2/8;
     display:flex;
     flex-flow:row nowrap;
@@ -67,8 +67,6 @@ nav ul {
 }
 
 nav ul li {
-    /*padding-left: 35px;
-    padding-right: 35px;*/
     margin: 5px 10px 0px 50px;
 }
 
@@ -118,35 +116,30 @@ footer {
 
 #homepage {
     background:none;
-    background-color:none;
     color:rgba(255, 23, 23, 1);
     text-decoration:none;
 }
 
 #aboutpage {
     background:none;
-    background-color:none;
     color:rgba(255, 201, 23, 1);
     text-decoration:none;
 }
 
 #contactpage {
     background:none;
-    background-color:none;
     color:rgba(255, 250, 118, 1);
     text-decoration:none;
 }
 
 #blogpage {
     background:none;
-    background-color:none;
     color:rgba(110, 210, 47, 1);
     text-decoration:none;
 }
 
 #projectspage {
     background:none;
-    background-color:none;
     color:rgba(116, 107, 245, 1);
     text-decoration:none;
 }
@@ -185,7 +178,6 @@ footer {
 
 #ellipsis {
     background:none;
-    background-color:none;
     color:rgba(255, 255, 255, 1);
     font-size: 40px;
     font-weight:bold;
