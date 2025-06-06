@@ -66,7 +66,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #FFFFFF; /* Figure this one out: need a logo hyperlink somehow. */
+    color: #FFFFFF;
 }
 
 main {
@@ -161,7 +161,7 @@ label {
 
 #homehero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/homehero.jpg");
+        url("https://zyobot101.github.io/se1400/utahtech6/homehero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -172,7 +172,7 @@ label {
 
 #studenthero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/studenthero.jpg");
+        url("https://zyobot101.github.io/se1400/utahtech6/studenthero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ label {
 
 #facultyhero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/facultyhero.jpg");
+        url("https://zyobot101.github.io/se1400/utahtech6/facultyhero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -194,7 +194,7 @@ label {
 
 #alumnihero {
     background-image:
-        url("https://zyobot101.github.io/se1400/utahtech3/alumnihero.jpg");
+        url("https://zyobot101.github.io/se1400/utahtech6/alumnihero.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -238,6 +238,12 @@ label {
     height:auto;
     }
 
+    #alumnihero {
+    grid-row: 2 / 3;
+    grid-column: 5 / 8;
+    height:auto;  
+    }
+
     main img {
         float:none;
         width:100%;
@@ -266,6 +272,10 @@ label {
     }
 
     #facultyhero {
+    display:none;
+    }
+
+    #alumnihero {
     display:none;
     }
 }

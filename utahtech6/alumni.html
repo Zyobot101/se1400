@@ -31,19 +31,26 @@
                 <h3>Request Alumni Newsletter</h3>
         </main>
         <footer>
+            <p>Required information is marked with an asterisk (*).</p>
             <form action = "https://kearl.net/se1400/mail.php" method = "post" id = "form"
             autocomplete = "off" name = "formcontrol">
-            <label for:>First Name:</label>
-            <br>
-            <label for:>Last Name:</label>
-            <br>
-            <label for:>Email:</label>
-            <br>
-            <label for:>Phone:</label>
-            <br>
-            <label for:>Comments:</label>
 
-            Submit
+            <label for="form">First Name:</label>
+                <textarea name="myFName"></textarea>
+
+            <label for="form">Last Name:</label>
+                <textarea name=""></textarea>
+
+            <label for="form">Email:</label>
+                <textarea name="myEmail"></textarea>
+
+            <label for="form">Phone:</label>
+                <textarea name="myPhone"></textarea>
+
+            <label for="form">Comments:</label>
+                <textarea name="myComments" rows="2" cols="20"></textarea>
+
+            <input type ="Submit" id = "mySubmit">
             </form>
             <br>
             Copyright &copy; 2025 Utah Tech University<br>
