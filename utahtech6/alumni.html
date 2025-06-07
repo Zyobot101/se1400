@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Utah Tech University: Alumni</title>
+    <title>Utah Tech University</title>
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport"
@@ -15,7 +15,7 @@
         <div id="bluebar"></div>
         <div id="greybar"></div>
         <header>
-            <h1><a href="index.html">Utah Tech University</a></h1>
+            <h1><a href="alumni.html">Utah Tech University</a></h1>
         </header>
         <nav>
             <ul>
@@ -32,27 +32,30 @@
         </main>
         <footer>
             <p>Required information is marked with an asterisk (*).</p>
-            <form action = "https://kearl.net/se1400/mail.php" method = "post" id = "form"
-            autocomplete = "off" name = "formcontrol">
+            <form action="https://kearl.net/se1400/mail.php" method="post" id="form"
+            autocomplete="off" name="formcontrol">
+                <label for="myFName">*First Name:</label>
+                    <input type="text" name="myFName" id="myFName" required>
 
-            <label for="form">First Name:</label>
-                <textarea name="myFName"></textarea>
+                <label for="myLName">*Last Name:</label>
+                    <input type="text" name="myLName" id="myLName" required>
 
-            <label for="form">Last Name:</label>
-                <textarea name=""></textarea>
+                <label for="myEmail">*E-mail:</label>
+                    <input type="email" name="myEmail" id="myEmail" required>
 
-            <label for="form">Email:</label>
-                <textarea name="myEmail"></textarea>
+                <label for="myPhone">Phone:</label>
+                    <input type="tel" name="myPhone" id="myPhone">
 
-            <label for="form">Phone:</label>
-                <textarea name="myPhone"></textarea>
+                <label for="myDate">Graduation Date:</label>
+                    <input type="date" name="myDate" id="myDate">
 
-            <label for="form">Comments:</label>
-                <textarea name="myComments" rows="2" cols="20"></textarea>
+                <label for="myComments">*Comments:</label>
+                    <textarea name="myComments" rows="2" cols="20" id="myComments" required></textarea>
 
-            <input type ="Submit" id = "mySubmit">
+                <button type="button" name="mySubmit" id="mySubmit" value="Submit">
+                    <label for="mySubmit">Submit</label>
+                </button>
             </form>
-            <br>
             Copyright &copy; 2025 Utah Tech University<br>
             <a href="mailto:ethan.lee1@utahtech.edu">ethan.lee1@utahtech.edu</a>
         </footer>

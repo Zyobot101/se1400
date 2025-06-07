@@ -111,11 +111,11 @@ footer {
 }
 
 form {
-    display:grid;
+    display: grid;
     grid-template-rows: auto;
     grid-template-columns: 200px 1fr;
-    grid-gap:0.75rem;
-    width:100%;
+    grid-gap: 0.75rem;
+    width: 100%;
 }
 
 input, textarea {
@@ -126,7 +126,12 @@ input, textarea {
     border:none;
 }
 
-input, textarea:focus {
+input:focus {
+    outline:none;
+    background-color:#f0f0f0;
+}
+
+textarea:focus {
     outline:none;
     background-color:#f0f0f0;
 }
@@ -137,7 +142,7 @@ label {
 }
 
 #mySubmit {
-    width:10rem;
+    width: 10rem;
     grid-column: 2 / 3;
 }
 
