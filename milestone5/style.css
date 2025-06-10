@@ -248,19 +248,20 @@ footer {
     }
 
     nav a {
+        grid-row:2/3;
+        grid-column:1/9;
         text-align:center;
-        flex-flow:column nowrap;
     }
 
     #coding_journey {
         grid-row:3/4;
-        grid-column:auto;
+        grid-column:1/9;
         text
     }
 
     #homecode {
         grid-row:4/5;
-        grid-column:auto;
+        grid-column:1/9;
         width:100%;
         background-image:
             url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452.jpg");
