@@ -238,9 +238,10 @@ footer {
         width:100%;
     }
 
-    nav {
+    nav a {
         grid-template-columns: 1fr;
         grid-template-rows: 1/2;
+        text-align: center;
     }
 
     #coding_journey {
