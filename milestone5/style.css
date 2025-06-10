@@ -218,7 +218,11 @@ footer {
 @media only screen and (max-width: 768px) {
     #wrapper {
         width:100%;
-        grid-template-columns:minmax(0px,0px) 768px minmax(0px,0px);
+        grid-template-columns:minmax(0px,0px) repeat(6, minmax(0, 128px)) minmax(0px,0px);
+    }
+
+    body {
+    margin: none;
     }
 
     nav {
@@ -237,4 +241,6 @@ footer {
     nav ul li {
         grid-row:2/3;
     }
+
+
 }
