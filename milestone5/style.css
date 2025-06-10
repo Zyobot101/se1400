@@ -234,7 +234,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     #wrapper {
-        grid-template-columns:auto 1fr auto;
+        grid-template-columns:1fr;
         width:100%;
     }
 
