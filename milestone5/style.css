@@ -238,10 +238,11 @@ footer {
         width:100%;
     }
 
-    nav a {
+    h2, nav {
         grid-template-columns: 1fr;
         grid-template-rows: 1/2;
         text-align: center;
+        flex-flow: column nowrap;
     }
 
     #coding_journey {
