@@ -237,25 +237,26 @@ footer {
 
 @media only screen and (max-width: 768px) {
     #wrapper {
-        width:50%;
-        grid-column:
+        width:100%;
+        grid-column:max(0px) 768px max(0px);
     }
 
-   nav a {
-        grid-row:1/3;
+   nav h1 {
+        grid-row:1/2;
         grid-column:auto;
         text-align:center;
     }
 
-    /* nav ul {
+    nav ul {
         grid-row:2/3;
         grid-column:auto;
         text-align:center;
-    } */
+    }
 
     #coding_journey {
         grid-row:3/4;
         grid-column:auto;
+        text
     }
 
     #homecode {
