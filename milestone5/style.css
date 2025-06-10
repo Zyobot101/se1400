@@ -241,19 +241,19 @@ footer {
         grid-column:max(0px) 768px max(0px);
     }
 
-    nav h2 {
+    nav {
         grid-row:1/2;
-        grid-column:1/8;
+        grid-column:1/9;
+        position:static;
     }
 
-    nav a {
-        grid-row:2/3;
-        grid-column:1/8;
+    nav ul {
+        flex-flow:column nowrap;
     }
 
     #coding_journey {
         grid-row:3/4;
-        grid-column:1/8;
+        grid-column:1/9;
         text
     }
 
