@@ -221,7 +221,7 @@ footer {
         grid-template-columns:minmax(0px,0px) 768px minmax(0px,0px);
     }
 
-    nav a {
+    nav {
         grid-row:1/3;
         grid-column:auto;
         position:static;
@@ -233,7 +233,7 @@ footer {
         grid-row:1;
     }
 
-    nav ul {
-        flex-flow:column nowrap;
+    nav ul li {
+        grid-row:2/3;
     }
 }
