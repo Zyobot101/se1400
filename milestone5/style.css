@@ -241,15 +241,17 @@ footer {
         grid-column:max(0px) 768px max(0px);
     }
 
-   nav h2 {
+    nav {
+        text-align:center;
+    }
+
+    nav h2 {
         grid-row:1/2;
-        grid-column:auto;
         text-align:center;
     }
 
     nav ul {
         grid-row:2/3;
-        grid-column:auto;
         text-align:center;
     }
 
