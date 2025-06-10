@@ -242,7 +242,7 @@ footer {
     }
 
     nav {
-        text-align:center;
+        flex-flow:column nowrap;
     }
 
     nav h2 {
