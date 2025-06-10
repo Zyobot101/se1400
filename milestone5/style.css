@@ -218,4 +218,9 @@ footer {
 
 @media only screen and (max-width: 768px) {
     
+    #wrapper {
+        width:100%;
+        grid-column:max(0px) 768px max(0px);
+    }
+    
 }
