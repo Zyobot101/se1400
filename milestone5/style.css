@@ -227,11 +227,8 @@ footer {
         position:static;
     }
 
-    nav a {
-        text-align;
-    }
-
     nav ul {
         flex-flow:column nowrap;
+        /*text-align:;*/
     }
 }
