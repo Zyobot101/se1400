@@ -243,25 +243,25 @@ footer {
 
     nav h2 {
         grid-row:1/2;
-        grid-column:1/9;
+        grid-column:1/8;
         text-align:center;
     }
 
     nav a {
         grid-row:2/3;
-        grid-column:1/9;
+        grid-column:1/8;
         text-align:center;
     }
 
     #coding_journey {
         grid-row:3/4;
-        grid-column:1/9;
+        grid-column:1/8;
         text
     }
 
     #homecode {
         grid-row:4/5;
-        grid-column:1/9;
+        grid-column:1/8;
         width:100%;
         background-image:
             url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452.jpg");
