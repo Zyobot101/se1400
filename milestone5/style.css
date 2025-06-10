@@ -241,10 +241,6 @@ footer {
         grid-column:max(0px) 768px max(0px);
     }
 
-    nav {
-        flex-flow:column nowrap;
-    }
-
     nav h2 {
         grid-row:1/2;
         text-align:center;
