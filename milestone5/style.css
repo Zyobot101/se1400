@@ -216,11 +216,14 @@ footer {
     }
 
     nav ul {
-    flex-flow:column nowrap;
+        grid-column:1/9;
+        grid-row:1;
+        text-align:center;
     }
 
     #coding_journey {
-
+        grid-column:;
+        grid-row:1/2;
     }
 
     #homecode {
@@ -234,25 +237,31 @@ footer {
 
 @media only screen and (max-width: 768px) {
     #wrapper {
-        width:100%;
+        width:50%;
+        grid-column:
     }
 
     header h2 {
         grid-row:1/2;
+        grid-column:auto;
         text-align:center;
     }
 
     nav ul {
         grid-row:2/3;
+        grid-column:auto;
         text-align:center;
     }
 
     #coding_journey {
-        
+        grid-row:3/4;
+        grid-column:auto;
     }
 
     #homecode {
-        width:auto;
+        grid-row:4/5;
+        grid-column:auto;
+        width:100%;
         background-image:
             url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452.jpg");
         background-size:cover;
