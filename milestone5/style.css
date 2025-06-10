@@ -222,7 +222,8 @@ footer {
     }
 
     body {
-    margin: none;
+        margin: none;
+        grid-column:1/6;
     }
 
     nav {
