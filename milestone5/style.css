@@ -244,7 +244,7 @@ footer {
         text-align:center;
     }
 
-    nav {
+    nav ul {
         grid-column:1fr;
         grid-row:2/3;
         text-align:center;
