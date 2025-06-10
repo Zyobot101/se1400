@@ -220,7 +220,10 @@ footer {
     
     #wrapper {
         width:100%;
-        grid-column:max(0px) 768px max(0px);
+        grid-column:minmax(0px,0px) 768px minmax(0px,0px);
     }
-    
+
+    nav ul {
+        flex-flow:column nowrap;
+    }
 }
