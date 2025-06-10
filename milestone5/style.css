@@ -218,7 +218,7 @@ footer {
 @media only screen and (max-width: 768px) {
     #wrapper {
         width:100%;
-        grid-column:minmax(0px,0px) 768px minmax(0px,0px);
+        grid-template-columns:minmax(0px,0px) 768px minmax(0px,0px);
     }
 
     nav a {
@@ -230,7 +230,7 @@ footer {
     }
 
     nav h2 {
-        grid-row:
+        grid-row:1;
     }
 
     nav ul {
