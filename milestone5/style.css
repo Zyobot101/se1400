@@ -233,8 +233,12 @@ footer {
         grid-row:1;
     }
 
-    nav ul li {
+    nav ul {
         grid-row:2;
+    }
+
+    nav ul li {
+        flex-flow:nowrap column;
     }
 
     /*
