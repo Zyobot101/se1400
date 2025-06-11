@@ -232,9 +232,10 @@ footer {
     nav {
         display:flex;
         flex-flow:column;
+        padding:none;
     }
 
-    nav header {
+    nav h2 {
         text-align:center;
     }
 
