@@ -240,7 +240,8 @@ footer {
     }
 
     nav ul {
-        margin:0;
+        display:flex;
+        flex-flow:column nowrap;
     }
 
     #coding_journey {
