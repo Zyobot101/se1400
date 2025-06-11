@@ -230,15 +230,17 @@ footer {
     }
 
     nav {
-        flex-flow:column nowrap;
+        flex-direction:column;
     }
 
     #coding_journey {
+        width:100%;
         grid-column:auto;
         grid-row:2;
     }
 
     #homecode {
+        width:100%;
         grid-column:auto;
         grid-row:3;
     }
@@ -252,8 +254,9 @@ footer {
 
     }
 
-    .photo {
-
-    }
     */
+
+    .photo {
+        float:none;
+    }
 }
