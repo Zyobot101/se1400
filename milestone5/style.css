@@ -229,12 +229,8 @@ footer {
         grid-column:auto;
     }
 
-    nav h2 {
+    nav {
         grid-row:1;
-    }
-
-    nav ul {
-        grid-row:2;
         flex-flow:column nowrap;
     }
 
