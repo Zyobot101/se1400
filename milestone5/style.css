@@ -256,18 +256,21 @@ footer {
         grid-row:3;
     }
 
-/*
     #middle_bar {
-
+        width:100%;
+        grid-column:auto;
+        grid-row:4;
     }
 
     .project {
-
+        display:flex;
+        float:none;
     }
 
-    */
-
     .photo {
+        display:flex;
+        padding-bottom: 50px;
+        padding-top: 20px;
         float:none;
     }
 }
