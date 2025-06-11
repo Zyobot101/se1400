@@ -233,8 +233,8 @@ footer {
         grid-row:1;
     }
 
-    /* nav ul li {
-        grid-row:2/3;
+    nav ul li {
+        grid-row:2;
     }
 
     /*
