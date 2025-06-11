@@ -232,11 +232,15 @@ footer {
     nav {
         display:flex;
         flex-flow:column;
-        padding:none;
     }
 
     nav h2 {
         text-align:center;
+        margin:0;
+    }
+
+    nav ul {
+        margin:0;
     }
 
     #coding_journey {
