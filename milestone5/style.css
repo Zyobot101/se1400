@@ -229,11 +229,11 @@ footer {
         grid-column:auto;
     }
 
-    /* nav h2 {
+    nav h2 {
         grid-row:1;
     }
 
-    nav ul li {
+    /* nav ul li {
         grid-row:2/3;
     }
 
