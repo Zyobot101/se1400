@@ -225,21 +225,19 @@ footer {
     }
 
     body {
-        margin: none;
+        margin:none;
         grid-column:auto;
     }
 
     nav {
-        grid-row:1;
         flex-flow:column nowrap;
     }
-
-    /*
 
     #coding_journey {
 
     }
 
+    /*
     #homecode {
 
     }
