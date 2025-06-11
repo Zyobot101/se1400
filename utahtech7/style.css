@@ -141,7 +141,7 @@ label {
     text-align:right;
 }
 
-table {
+table, td, th {
     margin:0 auto;
     border:1px solid #424242;
     width:100%;
