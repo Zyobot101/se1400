@@ -242,14 +242,17 @@ footer {
     nav ul {
         display:flex;
         flex-flow:column nowrap;
-        align:center;
+        text-align:center;
     }
 
     #coding_journey {
         width:100%;
         grid-column:auto;
         grid-row:2;
-        display:inline-block;
+    }
+
+    #coding_journey br {
+        display: none;
     }
 
     #homecode {
