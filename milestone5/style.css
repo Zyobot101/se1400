@@ -245,28 +245,6 @@ footer {
         text-align:center;
     }
 
-    #coding_journey {
-        width:100%;
-        grid-column:auto;
-        grid-row:2;
-    }
-
-    #coding_journey br {
-        display: none;
-    }
-
-    #homecode {
-        width:100%;
-        grid-column:auto;
-        grid-row:3;
-    }
-
-    #middle_bar {
-        width:100%;
-        grid-column:auto;
-        grid-row:4;
-    }
-
     .project {
         display:flex;
         float:none;
@@ -276,6 +254,6 @@ footer {
         display:flex;
         padding-bottom: 50px;
         padding-top: 20px;
-        float:none;
+        grid-row:auto;
     }
 }
