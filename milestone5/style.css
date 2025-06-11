@@ -249,6 +249,7 @@ footer {
         width:100%;
         grid-column:auto;
         grid-row:2;
+        display:inline-block;
     }
 
     #homecode {
