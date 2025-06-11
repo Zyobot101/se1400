@@ -232,7 +232,6 @@ footer {
     nav {
         display:flex;
         flex-flow:column nowrap;
-        flex-direction:column;
     }
 
     #coding_journey {
