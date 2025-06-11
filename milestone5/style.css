@@ -234,14 +234,16 @@ footer {
     }
 
     #coding_journey {
-
+        grid-column:auto;
+        grid-row:2;
     }
 
-    /*
     #homecode {
-
+        grid-column:auto;
+        grid-row:3;
     }
 
+/*
     #middle_bar {
 
     }
