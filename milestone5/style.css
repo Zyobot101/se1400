@@ -242,6 +242,7 @@ footer {
     nav ul {
         display:flex;
         flex-flow:column nowrap;
+        text-align:center;
     }
 
     #coding_journey {
