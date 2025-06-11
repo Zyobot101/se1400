@@ -235,10 +235,7 @@ footer {
 
     nav ul {
         grid-row:2;
-    }
-
-    nav ul li {
-        flex-flow:nowrap column;
+        flex-flow:column nowrap;
     }
 
     /*
