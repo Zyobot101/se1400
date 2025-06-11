@@ -229,15 +229,6 @@ footer {
         grid-column:auto;
     }
 
-    nav {
-        background-color:rgba(9,1,40,1);
-        grid-row:1;
-        grid-column:auto;
-        position:static;
-        text-align:center;
-        width:100%;
-    }
-
     /* nav h2 {
         grid-row:1;
     }
