@@ -7,8 +7,8 @@ body {
     color: #666666;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
-    background-attachment:fixed;
-    margin:0px;
+    background-attachment: fixed;
+    margin: 0px;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
     grid-row: 2 / 3;
     grid-column: 2 / -2;
     position: sticky;
-    top:0;
+    top: 0;
 }
 
 nav a {
@@ -30,15 +30,15 @@ nav a {
 }
 
 nav ul {
-    margin:0px;
-    padding:0px;
-    display:flex;
-    list-style-type:none;
-    flex-flow:row nowrap;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    flex-flow: row nowrap;
 }
 
 nav ul li {
-    width:100%;
+    width: 100%;
 }
 
 nav a:hover {
@@ -59,8 +59,8 @@ header h1 {
     background-image:
         url("utahtechlogo.svg");
     background-origin: content-box;
-    margin:0;
-    padding-left:1em;
+    margin: 0;
+    padding-left: 1em;
     line-height: 140%;
     padding: .5rem;
 }
@@ -71,16 +71,16 @@ header a {
 }
 
 main {
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     grid-row: 4 / 5;
     grid-column: 2 / -2;
     background-color: #FFFFFF;
 }
 
 main img {
-    padding-left:2rem;
-    float:right;
+    padding-left: 2rem;
+    float: right;
 }
 
 h2 {
@@ -89,8 +89,8 @@ h2 {
 }
 
 video {
-    float:right;
-    margin-left:2em;
+    float: right;
+    margin-left: 2em;
 }
 
 h3 {
@@ -124,40 +124,44 @@ form {
     width: 100%;
 }
 
-input, textarea {
-    font-size:1rem;
-    padding:10px;
-    color:#666666;
-    background-color:#fafafa;
-    border:none;
+input,
+textarea {
+    font-size: 1rem;
+    padding: 10px;
+    color: #666666;
+    background-color: #fafafa;
+    border: none;
 }
 
 input:focus {
-    outline:none;
-    background-color:#f0f0f0;
+    outline: none;
+    background-color: #f0f0f0;
 }
 
 textarea:focus {
-    outline:none;
-    background-color:#f0f0f0;
+    outline: none;
+    background-color: #f0f0f0;
 }
 
 label {
-    padding:10px;
-    text-align:right;
+    padding: 10px;
+    text-align: right;
 }
 
-table, td, th {
-    margin:0 auto;
-    border:1px solid #424242;
-    width:100%;
-    border-collapse:collapse;
+table,
+td,
+th {
+    margin: 0 auto;
+    border: 1px solid #424242;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-td, th {
-    padding:5px;
-    border:1px solid #424242;
-    text-align:center;
+td,
+th {
+    padding: 5px;
+    border: 1px solid #424242;
+    text-align: center;
 }
 
 tr:nth-of-type(2n) {
@@ -165,7 +169,7 @@ tr:nth-of-type(2n) {
 }
 
 .text {
-    text-align:left;
+    text-align: left;
 }
 
 #mySubmit {
@@ -246,6 +250,16 @@ tr:nth-of-type(2n) {
     grid-column: 1 / 9;
 }
 
+#shoppingcart {
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+#shoppingcart img {
+    width: 100%;
+    height: auto;
+}
+
 @media only screen and (max-width: 1100px) {
     #wrapper {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
@@ -254,88 +268,96 @@ tr:nth-of-type(2n) {
 
 @media only screen and (max-width: 900px) {
     nav {
-    grid-row: 2 / 3;
-    grid-column: 1 / 5;
-    position:static;
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+        position: static;
     }
 
     nav ul {
-    flex-flow:column nowrap;
+        flex-flow: column nowrap;
     }
 
     video {
-    float:none;
-    margin:0px 0px 0px 0px;
-    width:100%;
-    height:auto;
+        float: none;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: auto;
     }
 
     #homehero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height:auto;
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
     }
 
     #studenthero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height:auto;
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
     }
 
     #facultyhero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height:auto;
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
     }
 
     #alumnihero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height:auto;  
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
     }
 
     #shophero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height:auto;
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
+    }
+
+    #shoppingcart {
+        grid-column: 1 / 2;
     }
 
     main img {
-        float:none;
-        width:100%;
-        height:auto;
-        padding-left:0px;
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     header h1 {
-    background-image:none;
-    text-align:center;
+        background-image: none;
+        text-align: center;
     }
 
     nav {
-    grid-row: 2 / 3;
-    grid-column: 1 / 9;
+        grid-row: 2 / 3;
+        grid-column: 1 / 9;
     }
 
     #homehero {
-    display:none;
+        display: none;
     }
 
     #studenthero {
-    display:none;
+        display: none;
     }
 
     #facultyhero {
-    display:none;
+        display: none;
     }
 
     #alumnihero {
-    display:none;
+        display: none;
     }
 
     #shophero {
-    display:none;
+        display: none;
+    }
+
+    #shoppingcart {
+        grid-column: 1;
     }
 }
