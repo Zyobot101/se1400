@@ -252,7 +252,7 @@ tr:nth-of-type(2n) {
 
 #shoppingcart {
     display: grid;
-    grid-column: 1 / 3;
+    grid-template-columns: auto auto auto;
 }
 
 #shoppingcart img {
@@ -315,7 +315,7 @@ tr:nth-of-type(2n) {
     }
 
     #shoppingcart {
-        grid-column: 1 / 2;
+        grid-template-columns: auto auto;
     }
 
     main img {
@@ -358,6 +358,6 @@ tr:nth-of-type(2n) {
     }
 
     #shoppingcart {
-        grid-column: 1;
+        grid-template-columns: auto;
     }
 }
