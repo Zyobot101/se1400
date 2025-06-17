@@ -101,6 +101,8 @@ main img {
 form {
     display: grid;
     grid-template-rows: auto;
+    grid-gap: 0.50em;
+    width:100%;
 }
 
 footer {
