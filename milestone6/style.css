@@ -100,10 +100,15 @@ main img {
 
 form {
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 2/8;
+    grid-row: auto;
+    grid-column: 3/7;
     grid-gap: 1rem;
     width:100%;
+}
+
+input, textarea {
+    grid-template-columns: 2fr;
+    padding: 5px 20px 2px 20px;
 }
 
 footer {
@@ -198,6 +203,12 @@ footer {
     color:rgba(254, 32, 213, 1);
     line-height: 90%;
 }
+
+#myUsername {
+    grid-column:
+}
+
+
 
 .project{
     display:flex;
