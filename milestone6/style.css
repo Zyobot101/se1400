@@ -198,6 +198,7 @@ footer {
     grid-area:4/2/4/3;
     color: rgba(237, 255, 165, 1);
     padding-left:50px;
+    text-decoration:none;
 }
 
 .photo {
