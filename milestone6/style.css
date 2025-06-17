@@ -1,0 +1,248 @@
+/* Import 'Lexend Exa', 'Anonymous Pro', 'Roboto', and 'Anek Odio' font families*/
+
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url("/Users/ethanlee/Downloads/Lexend_Exa\(1\)\(1\)/LexendExa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Anonymous Pro';
+    src: url("/Users/ethanlee/Downloads/anonymous-pro/AnonymousPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/Users/ethanlee/Downloads/roboto\(1\)/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url("/Users/ethanlee/Downloads/roboto-mono/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Anek Odia';
+    src: url("/Users/ethanlee/Downloads/anek-odia_5.2.5/ttf/anek-odia-latin-300-normal.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(95,97,96,1);
+    margin: auto;
+}
+
+nav {
+    background-color: rgba(9,1,40,1);
+    top:0;
+    grid-row: 1;
+    grid-column: 2/8;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+nav a {
+    text-decoration:none;
+    display:block;
+    color:rgba(254, 32, 213, 1);
+}
+
+nav h2 {
+    font-size: 24px;
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight:normal;
+    margin: 25px 10px 25px 50px;
+    text-decoration:none;
+}
+
+nav ul {
+    display:block;
+    list-style-type:none;
+    font-family: 'Anonymous Pro', sans-serif;
+    font-size:24px;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+nav ul li {
+    margin: 5px 10px 0px 50px;
+}
+
+main {
+    padding-left:2rem;
+    padding-right:2rem;
+    grid-row: 4/5;
+    grid-column: 2/8;
+    background-color: rgba(159, 159, 159, 1);
+    color: rgba(237, 255, 165, 1);
+    text-decoration: none;
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+main h3 {
+    color: rgba(117, 244, 244, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    grid-column: 2/4;
+    display:flex;
+    float:left;
+    padding-left: 50px;
+}
+
+main img {
+    float:right;
+    padding-left:40px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgba(51, 64, 76, 1);
+    color: rgba(255, 255, 255, 1);
+    grid-row: 5/6;
+    grid-column: 2/8;
+    text-align:center;
+    font-family: 'Anek Odia', sans-serif;
+    padding-top:20px;
+    text-decoration:none;
+}
+
+#wrapper {
+    display:grid;
+    grid-template-columns: minmax(0px,1fr) repeat(6, minmax(0,175px)) minmax(0px,1fr);
+}
+
+#homepage {
+    background:none;
+    color:rgba(255, 23, 23, 1);
+    text-decoration:none;
+}
+
+#aboutpage {
+    background:none;
+    color:rgba(255, 201, 23, 1);
+    text-decoration:none;
+}
+
+#contactpage {
+    background:none;
+    color:rgba(255, 250, 118, 1);
+    text-decoration:none;
+}
+
+#blogpage {
+    background:none;
+    color:rgba(110, 210, 47, 1);
+    text-decoration:none;
+}
+
+#projectspage {
+    background:none;
+    color:rgba(116, 107, 245, 1);
+    text-decoration:none;
+}
+
+#coding_journey {
+    background-color: rgba(19,19,19,1);
+    grid-row: 2/3;
+    grid-column: 2/4;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 32px;
+    color: rgba(255, 130, 130, 1);
+    padding: 40px 50px 60px 70px;
+    line-height: 150%;
+}
+
+#homecode {
+    background-image:
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column: 4/8;
+}
+
+#middle_bar {
+    background-color: rgba(51,64,76,1);
+    grid-row: 3/4;
+    grid-column: 2/8;
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 26px;
+    color: rgba(255,163,98,1);
+    text-align: center;
+    line-height: 100%;
+    padding-top: 30px;
+}
+
+#ellipsis {
+    background:none;
+    color:rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight:bold;
+    text-decoration:none;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+#email {
+    background:none;
+    color:rgba(254, 32, 213, 1);
+    line-height: 90%;
+}
+
+.project{
+    display:flex;
+    float:left;
+    text-align: left;
+    grid-area:4/2/4/3;
+    color: rgba(237, 255, 165, 1);
+    padding-left:50px;
+}
+
+.photo {
+    display:grid;
+    float:right;
+    width:300px;
+    grid-area:2/5/4/7;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    float:right;
+}
+
+
+@media only screen and (max-width: 992px) {
+    #wrapper {
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 120px)) minmax(0px, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width:100%;
+        grid-template-columns:auto;
+    }
+
+    body {
+        margin:none;
+        grid-column:auto;
+    }
+
+    nav {
+        display:flex;
+        flex-flow:column;
+    }
+
+    nav h2 {
+        text-align:center;
+        margin:0;
+    }
+
+    nav ul {
+        display:flex;
+        flex-flow:column nowrap;
+        text-align:center;
+    }
+
+}
