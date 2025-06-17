@@ -98,6 +98,11 @@ main img {
     padding-top: 20px;
 }
 
+form {
+    display: grid;
+    grid-template-rows: auto;
+}
+
 footer {
     background-color: rgba(51, 64, 76, 1);
     color: rgba(255, 255, 255, 1);
