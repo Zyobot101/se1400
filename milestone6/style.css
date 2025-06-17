@@ -101,7 +101,8 @@ main img {
 form {
     display: grid;
     grid-template-rows: auto;
-    grid-gap: 0.50em;
+    grid-template-columns: 2/8;
+    grid-gap: 1rem;
     width:100%;
 }
 
