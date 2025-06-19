@@ -195,6 +195,15 @@ footer {
     grid-column: 4/8;
 }
 
+#jr_programmer {
+    background-image:
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-divinetechygirl-1181675.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column: 4/8;
+}
+
 #middle_bar {
     background-color: rgba(51, 64, 76, 1);
     grid-row: 3/4;
