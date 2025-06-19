@@ -188,7 +188,7 @@ footer {
 
 #contactcard {
     background-image:
-        url("file:///Users/ethanlee/Desktop/Summer%202025%20-%20Computing%20Fundamentals/se1400/milestone6/pexels-pixabay-326576.jpg");
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-pixabay-326576.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: 2/3;
