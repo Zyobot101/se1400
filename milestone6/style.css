@@ -93,7 +93,7 @@ main h3 {
 }
 
 main h4 {
-    color:rgba(225, 227, 32, 1);
+    color:rgb(152, 255, 176);
     font-size:20px;
     font-weight:bold;
     padding:none;
@@ -245,6 +245,12 @@ footer {
     line-height: 90%;
 }
 
+#rookie_defi {
+    background-color: none;
+    text-decoration: none;
+    color: rgba(254, 32, 213, 1);
+}
+
 #mySubmit {
     display:flexbox;
     float:center;
@@ -257,7 +263,7 @@ footer {
     display: flex;
     float: left;
     text-align: left;
-    grid-area: 4/2/4/3;
+    grid-area: 2/7;
     padding-left: 50px;
 }
 
@@ -284,25 +290,23 @@ footer {
 }
 
 .questions {
-    display: flex;
+    display: grid;
     float: left;
     text-align: left;
-    grid-area: 4/2/4/3;
+    grid-column:2/7;
     text-decoration: none;
-}
-
-.questions a {
-    text-decoration: none;
-    grid-column: 2/7;
+    padding-left:50px;
 }
 
 .answers {
-    display: flex;
-    float: left;
-    text-align: left;
-    grid-area: 4/2/4/3;
+    float:left;
+    display:grid;
+    text-decoration:none;
+    background-color: none;
+    grid-column: 2/7;
     color: rgba(237, 255, 165, 1);
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 .formlabel {
