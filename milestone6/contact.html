@@ -21,11 +21,8 @@
                     <li><a href="projects.html"><mark id="projectspage">Projects</mark></a></li>
                 </ul>
             </nav>
-            <div id = "">
-
+            <div id = "contactcard">
             </div>
-        <div id = "">
-        </div>
         <section id = "middle_bar">
             <p>
                 Wanna' chat? I gotcha' covered!
@@ -35,29 +32,31 @@
             </p>
         </section>
         <main>
+            <h4>Chat With Me or Join My Mailing List!</h4>
             <p>
                 Following me and reading my blog is one thing, but reaching out to talk shop or discuss things one on one really gets the creative juices flowing. Please, feel free to message me!
             </p>
+            <p>
+                * Please fill out every section with an asterisk (*) in front. Thank you.
+            </p>
+            <br>
             <form action="https://zyobot101.github.io/se1400/milestone6/received.php" method="post" id="form" name="formcontrol">
 
-                <label for="myUsername">USERNAME:</label>
-                    <br>
+                <label for="myUsername"><mark class="formlabel">* USERNAME:</mark></label>
                     <input type="name" name="myUsername" id="myUsername" required>
 
-                <label for="myEmail">EMAIL:</label>
-                    <br>
+                <label for="myEmail"><mark class="formlabel">* EMAIL:</mark></label>
                     <input type="email" name="myEmail" id="myEmail" required>
 
-                <label for="myPhone">PHONE:</label>
-                    <br>
+                <label for="myPhone"><mark class="formlabel">PHONE (OPTIONAL):</mark></label>
                     <input type="tel" name="myPhone" id="myPhone">
 
-                <p>Wanna' drop a note? Speak your mind below!</p>
-                <label for="myMessage">MESSAGE:</label>
-                    <br>
-                    <textarea name="myMessage" rows="4" cols="40" id="myMessage"></textarea>
+                <label for="myMessage"><mark class="formlabel">* MESSAGE:</mark></label>
+                    <textarea name="myMessage" rows="4" cols="40" id="myMessage" required></textarea>
 
-                <button type="button" name="mySubmit" id="mySubmit" value="Submit">Submit</button>
+                <br></br>
+                <button type="button" name="mySubmit" id="mySubmit" value="Submit">SUBMIT</button>
+                <br></br>
             </form>
         </main>
         <footer>
