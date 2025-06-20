@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final Project Implementation</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+            <nav>
+                <h2><a href="index.html">ROOKIE CODING</a></h2>
+                <ul>
+                    <li><a href="index.html"><mark id="homepage">Home</mark></a></li>
+                    <li><a href="about.html"><mark id="aboutpage">About</mark></a></li>
+                    <li><a href="contact.html"><mark id="contactpage">Contact</mark></a></li>
+                    <li><a href="blog.html"><mark id="blogpage">Blog</mark></a></li>
+                    <li><a href="projects.html"><mark id="projectspage">Projects</mark></a></li>
+                </ul>
+            </nav>
+        <div id = "contactcard">
+        </div>
+        <section id = "middle_bar">
+            <p>
+                Wanna' chat? I gotcha' covered!
+            </p>
+            <p>
+                <mark id="ellipsis">. . .</mark>
+            </p>
+        </section>
+        <main>
+            <h4>Chat With Me or Join My Mailing List!</h4>
+            <p>
+                Following me and reading my blog is one thing, but reaching out to talk shop or discuss things one on one really gets the creative juices flowing. Please, feel free to message me!
+            </p>
+            <p>
+                * Please fill out every section with an asterisk (*) in front. Thank you.
+            </p>
+            <br>
+            <form action="https://zyobot101.github.io/se1400/milestone6/received.php" method="post" id="form" name="formcontrol">
+
+                <label for="myUsername"><mark class="formlabel">* USERNAME:</mark></label>
+                    <input type="name" name="myUsername" id="myUsername" required>
+
+                <label for="myEmail"><mark class="formlabel">* EMAIL:</mark></label>
+                    <input type="email" name="myEmail" id="myEmail" required>
+
+                <label for="myPhone"><mark class="formlabel">PHONE (OPTIONAL):</mark></label>
+                    <input type="tel" name="myPhone" id="myPhone">
+
+                <label for="myMessage"><mark class="formlabel">* MESSAGE:</mark></label>
+                    <textarea name="myMessage" rows="4" cols="40" id="myMessage" required></textarea>
+
+                <br></br>
+                <button type="button" name="mySubmit" id="mySubmit" value="Submit">SUBMIT</button>
+                <br></br>
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2025
+            <a href="mailto:ethan.lee1@utahtech.edu"><br><mark id="email">ethan.lee1@utahtech.edu</mark></a>
+        </footer>
+    </div>
+</body>
+
+</html>
