@@ -257,18 +257,30 @@ footer {
     line-height: 90%;
 }
 
-#rookie_defi {
-    background-color: none;
-    text-decoration: none;
-    color: rgba(254, 32, 213, 1);
-}
-
 #mySubmit {
     display:flexbox;
     float:center;
     margin:20px 0px 20px 0px;
     width:200px;
     height:50px;
+}
+
+#great_state {
+    display:flex;
+    float:right;
+    margin: 20px 70px 20px 0px;
+}
+
+#why_post {
+    display:flex;
+    float:right;
+    margin: 20px 70px 20px 0px;
+}
+
+#computer_work {
+    display:flex;
+    float:right;
+    margin: 20px 70px 20px 0px;
 }
 
 .mainheader {
@@ -284,7 +296,6 @@ footer {
     float: left;
     text-align: left;
     color: rgba(237, 255, 165, 1);
-    padding-left: 0px;
     white-space: wrap;
 }
 
@@ -292,13 +303,15 @@ footer {
     color: rgba(237, 255, 165, 1);
     text-decoration: none;
     grid-column: 2/3;
-    padding-left: 50px;
+    margin-left:50px;
 }
 
 .photo {
     display:grid;
     width: 300px;
     grid-column: 5;
+    margin:0px 100px 20px 0px;
+    float:right;
 }
 
 .questions {
