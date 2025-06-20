@@ -179,7 +179,7 @@ footer {
 
 #homecode {
     background-image:
-        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452-1.jpg");
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone3/pexels-pixabay-276452.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: 2/3;
@@ -188,36 +188,47 @@ footer {
 
 #intro_to_me {
     background-image:
-        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-brettjordan-11123244-1.jpg");
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-brettjordan-11123244.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    height:700px;
-    width:1050px;
+    height:750px;
+    width:100%;
     grid-row: 2/3;
     grid-column: 2/8;
 }
 
 #contactcard {
     background-image:
-        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-pixabay-326576-1.jpg");
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-pixabay-326576.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:500px;
+    width:100%;
     grid-row: 2/3;
-    grid-column: 4/8;
+    grid-column: 2/8;
 }
 
 #jr_programmer {
     background-image:
-        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-divinetechygirl-1181675-1.jpg");
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-divinetechygirl-1181675.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:500px;
+    width:100%;
     grid-row: 2/3;
-    grid-column: 4/8;
+    grid-column: 2/8;
 }
 
-
+#blog_image {
+    background-image:
+        url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-suzyhazelwood-3695297.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    width:100%;
+    grid-row: 2/3;
+    grid-column: 2/8;
+}
 
 #middle_bar {
     background-color: rgba(51, 64, 76, 1);
