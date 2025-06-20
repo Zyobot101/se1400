@@ -191,7 +191,7 @@ footer {
         url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-brettjordan-11123244.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    height:750px;
+    height:500px;
     width:100%;
     grid-row: 2/3;
     grid-column: 2/8;
