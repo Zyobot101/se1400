@@ -191,9 +191,10 @@ footer {
         url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-brettjordan-11123244-1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    height:500px;
+    height:700px;
+    width:1050px;
     grid-row: 2/3;
-    grid-column: 4/8;
+    grid-column: 2/8;
 }
 
 #contactcard {
@@ -201,7 +202,7 @@ footer {
         url("https://raw.githubusercontent.com/Zyobot101/se1400/refs/heads/main/milestone6/pexels-pixabay-326576-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height:400px;
+    height:500px;
     grid-row: 2/3;
     grid-column: 4/8;
 }
